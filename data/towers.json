@@ -1,0 +1,277 @@
+{
+  "marine": {
+    "name": "机枪兵", "race": "terran",
+    "cost": 50, "damage": 6, "range": 128, "fire_rate": 0.5,
+    "targets": "both", "splash": false, "sprite_key": "marine",
+    "proj_key": "bullet", "proj_speed": 500,
+    "upgrades": [
+      {"cost": 50, "damage_bonus": 3, "range_bonus": 8, "fire_rate_bonus": -0.05},
+      {"cost": 100, "damage_bonus": 6, "range_bonus": 16, "fire_rate_bonus": -0.1}
+    ]
+  },
+  "firebat": {
+    "name": "火焰兵", "race": "terran",
+    "cost": 50, "damage": 8, "range": 80, "fire_rate": 0.7,
+    "targets": "ground", "splash": false, "sprite_key": "firebat",
+    "proj_key": "bullet", "proj_speed": 400,
+    "upgrades": [
+      {"cost": 50, "damage_bonus": 4, "range_bonus": 8, "fire_rate_bonus": -0.05},
+      {"cost": 100, "damage_bonus": 8, "range_bonus": 16, "fire_rate_bonus": -0.1}
+    ]
+  },
+  "ghost": {
+    "name": "幽灵", "race": "terran",
+    "cost": 75, "damage": 10, "range": 192, "fire_rate": 1.0,
+    "targets": "both", "splash": false, "sprite_key": "ghost",
+    "proj_key": "bullet", "proj_speed": 600,
+    "upgrades": [
+      {"cost": 75, "damage_bonus": 5, "range_bonus": 32, "fire_rate_bonus": -0.1},
+      {"cost": 150, "damage_bonus": 10, "range_bonus": 48, "fire_rate_bonus": -0.15}
+    ]
+  },
+  "goliath": {
+    "name": "巨人", "race": "terran",
+    "cost": 100, "damage": 12, "range": 192, "fire_rate": 1.2,
+    "targets": "both", "splash": false, "sprite_key": "goliath",
+    "proj_key": "bullet", "proj_speed": 500,
+    "upgrades": [
+      {"cost": 100, "damage_bonus": 6, "range_bonus": 16, "fire_rate_bonus": -0.1},
+      {"cost": 200, "damage_bonus": 12, "range_bonus": 32, "fire_rate_bonus": -0.15}
+    ]
+  },
+  "siege_tank": {
+    "name": "攻城坦克", "race": "terran",
+    "cost": 150, "damage": 30, "range": 256, "fire_rate": 2.0,
+    "targets": "ground", "splash": true, "splash_radius": 48, "sprite_key": "siege_tank",
+    "proj_key": "bullet", "proj_speed": 600,
+    "upgrades": [
+      {"cost": 150, "damage_bonus": 15, "range_bonus": 64, "fire_rate_bonus": -0.2},
+      {"cost": 300, "damage_bonus": 30, "range_bonus": 96, "fire_rate_bonus": -0.3}
+    ]
+  },
+  "wraith": {
+    "name": "科学球", "race": "terran",
+    "cost": 150, "damage": 8, "range": 160, "fire_rate": 1.0,
+    "targets": "both", "splash": false, "sprite_key": "wraith",
+    "proj_key": "bullet", "proj_speed": 600,
+    "is_air": true,
+    "upgrades": [
+      {"cost": 100, "damage_bonus": 4, "range_bonus": 16, "fire_rate_bonus": -0.05},
+      {"cost": 200, "damage_bonus": 8, "range_bonus": 32, "fire_rate_bonus": -0.1}
+    ]
+  },
+  "battlecruiser": {
+    "name": "大和舰", "race": "terran",
+    "cost": 400, "damage": 25, "range": 256, "fire_rate": 1.5,
+    "targets": "both", "splash": false, "sprite_key": "battlecruiser",
+    "proj_key": "cannon_shot", "proj_speed": 500,
+    "is_air": true,
+    "upgrades": [
+      {"cost": 300, "damage_bonus": 15, "range_bonus": 32, "fire_rate_bonus": -0.2},
+      {"cost": 500, "damage_bonus": 25, "range_bonus": 64, "fire_rate_bonus": -0.3}
+    ]
+  },
+  "valkyrie": {
+    "name": "瓦尔基里", "race": "terran",
+    "cost": 250, "damage": 6, "range": 192, "fire_rate": 0.3,
+    "targets": "air", "splash": true, "splash_radius": 32, "sprite_key": "valkyrie",
+    "proj_key": "bullet", "proj_speed": 700,
+    "upgrades": [
+      {"cost": 200, "damage_bonus": 3, "range_bonus": 16, "fire_rate_bonus": -0.05},
+      {"cost": 300, "damage_bonus": 6, "range_bonus": 32, "fire_rate_bonus": -0.08}
+    ]
+  },
+  "bunker": {
+    "name": "碉堡", "race": "terran",
+    "cost": 100, "damage": 12, "range": 160, "fire_rate": 0.6,
+    "targets": "ground", "splash": false, "sprite_key": "bunker",
+    "proj_key": "bullet", "proj_speed": 500,
+    "upgrades": [
+      {"cost": 100, "damage_bonus": 6, "range_bonus": 16, "fire_rate_bonus": -0.05},
+      {"cost": 200, "damage_bonus": 12, "range_bonus": 32, "fire_rate_bonus": -0.1}
+    ]
+  },
+  "missile_turret": {
+    "name": "导弹塔", "race": "terran",
+    "cost": 75, "damage": 15, "range": 256, "fire_rate": 1.0,
+    "targets": "ground", "splash": false, "sprite_key": "missile_turret",
+    "proj_key": "bullet", "proj_speed": 600,
+    "upgrades": [
+      {"cost": 75, "damage_bonus": 8, "range_bonus": 32, "fire_rate_bonus": -0.1},
+      {"cost": 150, "damage_bonus": 15, "range_bonus": 48, "fire_rate_bonus": -0.15}
+    ]
+  },
+  "_comment_protoss": "",
+  "dragoon": {
+    "name": "龙骑", "race": "protoss",
+    "cost": 125, "damage": 20, "range": 192, "fire_rate": 1.5,
+    "targets": "both", "splash": false, "sprite_key": "dragoon",
+    "proj_key": "cannon_shot", "proj_speed": 400,
+    "upgrades": [
+      {"cost": 125, "damage_bonus": 10, "range_bonus": 16, "fire_rate_bonus": -0.15},
+      {"cost": 250, "damage_bonus": 20, "range_bonus": 32, "fire_rate_bonus": -0.2}
+    ]
+  },
+  "archon": {
+    "name": "执政官", "race": "protoss",
+    "cost": 100, "damage": 30, "range": 80, "fire_rate": 1.0,
+    "targets": "both", "splash": true, "splash_radius": 24, "sprite_key": "archon",
+    "proj_key": "cannon_shot", "proj_speed": 300,
+    "upgrades": [
+      {"cost": 100, "damage_bonus": 15, "range_bonus": 16, "fire_rate_bonus": -0.1},
+      {"cost": 200, "damage_bonus": 30, "range_bonus": 32, "fire_rate_bonus": -0.15}
+    ]
+  },
+  "scout": {
+    "name": "侦察机", "race": "protoss",
+    "cost": 275, "damage": 28, "range": 192, "fire_rate": 1.2,
+    "targets": "both", "splash": false, "sprite_key": "scout",
+    "proj_key": "cannon_shot", "proj_speed": 500,
+    "is_air": true,
+    "upgrades": [
+      {"cost": 200, "damage_bonus": 14, "range_bonus": 32, "fire_rate_bonus": -0.1},
+      {"cost": 350, "damage_bonus": 28, "range_bonus": 48, "fire_rate_bonus": -0.15}
+    ]
+  },
+  "carrier": {
+    "name": "航空母舰", "race": "protoss",
+    "cost": 350, "damage": 8, "range": 256, "fire_rate": 0.4,
+    "targets": "both", "splash": false, "sprite_key": "carrier",
+    "proj_key": "cannon_shot", "proj_speed": 600,
+    "is_air": true,
+    "special": "interceptor",
+    "interceptor_count": 4,
+    "upgrades": [
+      {"cost": 300, "interceptor_count": 2, "damage_bonus": 4, "range_bonus": 32},
+      {"cost": 500, "interceptor_count": 2, "damage_bonus": 8, "range_bonus": 64}
+    ]
+  },
+  "arbiter": {
+    "name": "仲裁者", "race": "protoss",
+    "cost": 250, "damage": 10, "range": 192, "fire_rate": 1.0,
+    "targets": "both", "splash": false, "sprite_key": "arbiter",
+    "proj_key": "cannon_shot", "proj_speed": 500,
+    "is_air": true,
+    "upgrades": [
+      {"cost": 200, "damage_bonus": 5, "range_bonus": 32, "fire_rate_bonus": -0.1},
+      {"cost": 400, "damage_bonus": 10, "range_bonus": 64, "fire_rate_bonus": -0.15}
+    ]
+  },
+  "photon_cannon": {
+    "name": "光子炮台", "race": "protoss",
+    "cost": 100, "damage": 20, "range": 192, "fire_rate": 1.0,
+    "targets": "both", "splash": false, "sprite_key": "photon_cannon",
+    "proj_key": "cannon_shot", "proj_speed": 500,
+    "upgrades": [
+      {"cost": 100, "damage_bonus": 10, "range_bonus": 24, "fire_rate_bonus": -0.1},
+      {"cost": 200, "damage_bonus": 20, "range_bonus": 48, "fire_rate_bonus": -0.15}
+    ]
+  },
+  "_comment_zerg": "",
+  "zergling": {
+    "name": "小狗", "race": "zerg",
+    "cost": 25, "damage": 5, "range": 48, "fire_rate": 0.4,
+    "targets": "ground", "splash": false, "sprite_key": "zergling",
+    "proj_key": "spine", "proj_speed": 0,
+    "upgrades": [
+      {"cost": 25, "damage_bonus": 3, "range_bonus": 0, "fire_rate_bonus": -0.05},
+      {"cost": 50, "damage_bonus": 5, "range_bonus": 0, "fire_rate_bonus": -0.08}
+    ]
+  },
+  "hydralisk": {
+    "name": "刺蛇", "race": "zerg",
+    "cost": 75, "damage": 10, "range": 160, "fire_rate": 0.7,
+    "targets": "both", "splash": false, "sprite_key": "hydralisk",
+    "proj_key": "spine", "proj_speed": 500,
+    "upgrades": [
+      {"cost": 75, "damage_bonus": 5, "range_bonus": 16, "fire_rate_bonus": -0.1},
+      {"cost": 150, "damage_bonus": 10, "range_bonus": 32, "fire_rate_bonus": -0.15}
+    ]
+  },
+  "lurker": {
+    "name": "潜伏者", "race": "zerg",
+    "cost": 125, "damage": 20, "range": 96, "fire_rate": 1.5,
+    "targets": "ground", "splash": true, "splash_radius": 32, "sprite_key": "lurker",
+    "proj_key": "spine", "proj_speed": 300,
+    "upgrades": [
+      {"cost": 125, "damage_bonus": 10, "range_bonus": 16, "fire_rate_bonus": -0.1},
+      {"cost": 250, "damage_bonus": 20, "range_bonus": 32, "fire_rate_bonus": -0.2}
+    ]
+  },
+  "ultralisk": {
+    "name": "大象", "race": "zerg",
+    "cost": 200, "damage": 35, "range": 64, "fire_rate": 1.2,
+    "targets": "ground", "splash": false, "sprite_key": "ultralisk",
+    "proj_key": "spine", "proj_speed": 0,
+    "upgrades": [
+      {"cost": 200, "damage_bonus": 15, "range_bonus": 8, "fire_rate_bonus": -0.1},
+      {"cost": 400, "damage_bonus": 35, "range_bonus": 16, "fire_rate_bonus": -0.2}
+    ]
+  },
+  "mutalisk": {
+    "name": "飞龙", "race": "zerg",
+    "cost": 100, "damage": 9, "range": 96, "fire_rate": 0.6,
+    "targets": "both", "splash": true, "splash_radius": 16, "sprite_key": "mutalisk",
+    "proj_key": "spine", "proj_speed": 600,
+    "upgrades": [
+      {"cost": 100, "damage_bonus": 5, "range_bonus": 16, "fire_rate_bonus": -0.05},
+      {"cost": 200, "damage_bonus": 9, "range_bonus": 32, "fire_rate_bonus": -0.1}
+    ]
+  },
+  "guardian": {
+    "name": "守护者", "race": "zerg",
+    "cost": 150, "damage": 20, "range": 256, "fire_rate": 2.0,
+    "targets": "ground", "splash": false, "sprite_key": "guardian",
+    "proj_key": "spine", "proj_speed": 400,
+    "upgrades": [
+      {"cost": 150, "damage_bonus": 10, "range_bonus": 32, "fire_rate_bonus": -0.2},
+      {"cost": 300, "damage_bonus": 20, "range_bonus": 64, "fire_rate_bonus": -0.3}
+    ]
+  },
+  "devourer": {
+    "name": "吞噬者", "race": "zerg",
+    "cost": 200, "damage": 12, "range": 192, "fire_rate": 1.2,
+    "targets": "air", "splash": true, "splash_radius": 24, "sprite_key": "devourer",
+    "proj_key": "spine", "proj_speed": 500,
+    "upgrades": [
+      {"cost": 150, "damage_bonus": 6, "range_bonus": 32, "fire_rate_bonus": -0.1},
+      {"cost": 300, "damage_bonus": 12, "range_bonus": 48, "fire_rate_bonus": -0.15}
+    ]
+  },
+  "queen": {
+    "name": "女王", "race": "zerg",
+    "cost": 100, "damage": 0, "range": 256, "fire_rate": 0,
+    "targets": "ground", "splash": false, "sprite_key": "queen",
+    "proj_key": "spine", "proj_speed": 0,
+    "special": "parasite",
+    "parasite_damage": 5,
+    "parasite_slow": 0.5,
+    "parasite_cooldown": 20.0,
+    "parasite_duration": 5.0,
+    "has_upgrade_special": true,
+    "upgrades": [
+      {"cost": 100, "parasite_damage": 5, "parasite_duration": 3.0, "parasite_slow": 0.1},
+      {"cost": 200, "parasite_damage": 10, "parasite_duration": 5.0, "parasite_slow": 0.15}
+    ]
+  },
+  "sunken_colony": {
+    "name": "地刺塔", "race": "zerg",
+    "cost": 100, "damage": 25, "range": 160, "fire_rate": 1.2,
+    "targets": "ground", "splash": false, "sprite_key": "sunken_colony",
+    "proj_key": "spine", "proj_speed": 500,
+    "upgrades": [
+      {"cost": 100, "damage_bonus": 12, "range_bonus": 16, "fire_rate_bonus": -0.1},
+      {"cost": 200, "damage_bonus": 25, "range_bonus": 32, "fire_rate_bonus": -0.2}
+    ]
+  },
+  "spore_colony": {
+    "name": "孢子塔", "race": "zerg",
+    "cost": 75, "damage": 12, "range": 224, "fire_rate": 0.8,
+    "targets": "air", "splash": false, "sprite_key": "spore_colony",
+    "proj_key": "spine", "proj_speed": 500,
+    "upgrades": [
+      {"cost": 75, "damage_bonus": 6, "range_bonus": 32, "fire_rate_bonus": -0.08},
+      {"cost": 150, "damage_bonus": 12, "range_bonus": 48, "fire_rate_bonus": -0.12}
+    ]
+  }
+}

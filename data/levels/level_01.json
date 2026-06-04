@@ -1,0 +1,54 @@
+{
+  "name": "初次接触",
+  "description": "虫族小狗正在接近基地！建造防御工事。",
+  "starting_money": 200,
+  "starting_lives": 20,
+  "path": [
+    [0, 10],
+    [8, 10],
+    [8, 3],
+    [22, 3],
+    [22, 14],
+    [31, 14]
+  ],
+  "waves": [
+    {
+      "groups": [
+        {"type": "zergling", "count": 3, "delay": 1.2}
+      ]
+    },
+    {
+      "groups": [
+        {"type": "zergling", "count": 5, "delay": 1.0}
+      ]
+    },
+    {
+      "groups": [
+        {"type": "zergling", "count": 7, "delay": 0.8}
+      ]
+    },
+    {
+      "groups": [
+        {"type": "zergling", "count": 5, "delay": 0.8},
+        {"type": "hydralisk", "count": 2, "delay": 1.5}
+      ]
+    },
+    {
+      "groups": [
+        {"type": "zergling", "count": 10, "delay": 0.6}
+      ]
+    },
+    {
+      "groups": [
+        {"type": "zergling", "count": 8, "delay": 0.5},
+        {"type": "hydralisk", "count": 4, "delay": 0.8}
+      ]
+    },
+    {
+      "groups": [
+        {"type": "zergling", "count": 15, "delay": 0.3},
+        {"type": "hydralisk", "count": 5, "delay": 0.6}
+      ]
+    }
+  ]
+}

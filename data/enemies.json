@@ -1,0 +1,47 @@
+{
+  "zergling": {
+    "name": "小狗",
+    "hp": 35,
+    "speed": 80,
+    "armor": 0,
+    "reward": 10,
+    "damage_to_base": 1,
+    "sprite_key": "zergling"
+  },
+  "hydralisk": {
+    "name": "刺蛇",
+    "hp": 80,
+    "speed": 60,
+    "armor": 1,
+    "reward": 25,
+    "damage_to_base": 1,
+    "sprite_key": "hydralisk"
+  },
+  "marine": {
+    "name": "机枪兵",
+    "hp": 40,
+    "speed": 55,
+    "armor": 0,
+    "reward": 15,
+    "damage_to_base": 1,
+    "sprite_key": "marine"
+  },
+  "zealot": {
+    "name": "狂热者",
+    "hp": 100,
+    "speed": 50,
+    "armor": 1,
+    "reward": 30,
+    "damage_to_base": 1,
+    "sprite_key": "zealot"
+  },
+  "ultralisk": {
+    "name": "大象",
+    "hp": 200,
+    "speed": 45,
+    "armor": 2,
+    "reward": 50,
+    "damage_to_base": 2,
+    "sprite_key": "ultralisk"
+  }
+}
