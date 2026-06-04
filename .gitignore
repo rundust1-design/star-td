@@ -1,0 +1,43 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg-info/
+dist/
+build/
+
+# Virtual environment
+.venv/
+venv/
+
+# Claude / agent config
+.claude/
+
+# Debug / test artifacts
+debug_*.png
+test_*.png
+debug_black_bg.png
+debug_blit_*.png
+debug_diagnostic_screen.png
+debug_frame_*.png
+debug_final.png
+debug_pil_*.png
+debug_pygame_*.png
+debug_save_*.png
+debug_screen_*.png
+debug_game_render.png
+
+# Entity debug images
+src/entities/debug_*.png
+
+# Pygame wheel
+pygame-*.whl
+
+# OS files
+Thumbs.db
+.DS_Store
+
+# IDE
+.vscode/
+.idea/
